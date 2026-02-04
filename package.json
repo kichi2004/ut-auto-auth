@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "lint": "eslint . --ext .js,.mjs,.cjs,.json"
+  },
   "devDependencies": {
     "@eslint/js": "^9.39.2",
     "@eslint/json": "^1.0.0",

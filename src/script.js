@@ -30,7 +30,6 @@ const ONLY_UTID_NAME = [
 ]
 
 function autoInput() {
-  console.log(location)
   if (location.search.includes('execution=e3')) {
     console.warn("Session Error")
     return

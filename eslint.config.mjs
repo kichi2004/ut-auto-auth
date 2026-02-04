@@ -7,4 +7,11 @@ export default defineConfig([
   { files: ["**/*.{js,mjs,cjs}"], plugins: { js }, extends: ["js/recommended"], languageOptions: { globals: globals.browser } },
   { files: ["**/*.js"], languageOptions: { sourceType: "script" } },
   { files: ["**/*.json"], plugins: { json }, language: "json/json", extends: ["json/recommended"] },
+  {
+    languageOptions: {
+      globals: {
+        chrome: "readonly"
+      }
+    }
+  }
 ]);
