@@ -6,8 +6,8 @@ const QUERIES = {
     'error': '.form-error'
   },
   'twins.tsukuba.ac.jp': {
-    'username': 'input[name="userName"]',
-    'password': 'input[name="password"]',
+    'username': '#userNameInput',
+    'password': '#passwordInput',
     'save': 'button[type="submit"]',
     'error': null
   },
