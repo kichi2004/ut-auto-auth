@@ -1,8 +1,9 @@
 {
-  "name": "筑波大学統一認証システム 自動ログイン拡張",
+  "name": "__MSG_extensionName__",
   "short_name": "ut-auto-auth",
-  "version": "1.1.0",
-  "description": "筑波大学の統一認証システム画面を自動で入力する拡張機能です",
+  "version": "1.1.1",
+  "description": "__MSG_extensionDescription__",
+  "default_locale": "ja",
   "content_scripts": [
     {
       "matches": [

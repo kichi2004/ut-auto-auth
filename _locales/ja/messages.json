@@ -1,0 +1,38 @@
+{
+  "extensionName": {
+    "message": "筑波大学統一認証システム 自動ログイン拡張"
+  },
+  "extensionDescription": {
+    "message": "筑波大学の統一認証システム画面を自動で入力する拡張機能です"
+  },
+  "optionsTitle": {
+    "message": "統一認証自動ログイン拡張 設定画面"
+  },
+  "settingsHeading": {
+    "message": "設定"
+  },
+  "utid13Label": {
+    "message": "UTID-13"
+  },
+  "utidNameLabel": {
+    "message": "UTID-NAME"
+  },
+  "passwordLabel": {
+    "message": "パスワード"
+  },
+  "autoFillButton": {
+    "message": "UTID-13 から自動入力"
+  },
+  "saveButton": {
+    "message": "保存"
+  },
+  "noticeText": {
+    "message": "入力したパスワードは，拡張機能の開発者には送信されません．<br />Google アカウントでログインしている場合は，そのアカウントに紐付けられる場合があります．"
+  },
+  "saveSuccess": {
+    "message": "保存しました"
+  },
+  "saveFailed": {
+    "message": "保存に失敗しました"
+  }
+}

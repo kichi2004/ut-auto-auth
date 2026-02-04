@@ -1,0 +1,38 @@
+{
+  "extensionName": {
+    "message": "University of Tsukuba Unified Authentication Auto-Login Extension"
+  },
+  "extensionDescription": {
+    "message": "An extension that automatically fills in the University of Tsukuba unified authentication system"
+  },
+  "optionsTitle": {
+    "message": "Unified Authentication Auto-Login Extension Settings"
+  },
+  "settingsHeading": {
+    "message": "Settings"
+  },
+  "utid13Label": {
+    "message": "UTID-13"
+  },
+  "utidNameLabel": {
+    "message": "UTID-NAME"
+  },
+  "passwordLabel": {
+    "message": "Password"
+  },
+  "autoFillButton": {
+    "message": "Auto-fill from UTID-13"
+  },
+  "saveButton": {
+    "message": "Save"
+  },
+  "noticeText": {
+    "message": "The password you enter will not be sent to the extension developer.<br />If you are logged in with a Google account, it may be associated with that account."
+  },
+  "saveSuccess": {
+    "message": "Saved successfully"
+  },
+  "saveFailed": {
+    "message": "Failed to save"
+  }
+}

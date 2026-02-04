@@ -1,31 +1,27 @@
-<html lang="ja">
+<html>
 <head>
-  <title>統一認証自動ログイン拡張 設定画面</title>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="./options.css" />
 </head>
 <body>
-<h1>設定</h1>
+<h1 data-i18n="settingsHeading"></h1>
 <div class="form-group">
-  <label for="user-id">UTID-13</label>
+  <label for="user-id" data-i18n="utid13Label"></label>
   <input id="user-id" name="userid" placeholder="0012026099999" />
 </div>
 <div class="form-group">
-  <label for="user-name">UTID-NAME</label>
+  <label for="user-name" data-i18n="utidNameLabel"></label>
   <input id="user-name" name="username" placeholder="s2609999" />
-  <button type="button" id="auto-id">UTID-13 から自動入力</button>
+  <button type="button" id="auto-id" data-i18n="autoFillButton"></button>
 </div>
 <div class="form-group">
-  <label for="password">パスワード</label>
+  <label for="password" data-i18n="passwordLabel"></label>
   <input id="password" name="password" type="password" />
 </div>
-<button type="button" id="save">保存</button>
+<button type="button" id="save" data-i18n="saveButton"></button>
 <div class="notice">
-  <p>
-    入力したパスワードは，拡張機能の開発者には送信されません．<br />
-    Google アカウントでログインしている場合は，そのアカウントに紐付けられる場合があります．
-  </p>
+  <p data-i18n-html="noticeText"></p>
 </div>
 <script src="./options.js"></script>
 </body>
