@@ -1,14 +1,14 @@
 {
   "name": "筑波大学統一認証システム 自動ログイン拡張",
   "short_name": "ut-auto-auth",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "筑波大学の統一認証システム画面を自動で入力する拡張機能です",
   "content_scripts": [
     {
       "matches": [
         "https://idp.account.tsukuba.ac.jp/idp/profile/SAML2/Redirect/SSO*",
         "https://idp.coins.tsukuba.ac.jp/idp/profile/SAML2/Redirect/SSO*",
-        "https://twins.tsukuba.ac.jp/campusweb/campusportal.do*",
+        "https://twins.tsukuba.ac.jp/campusweb/*",
         "https://papercut-p01.u.tsukuba.ac.jp/user*"
       ],
       "js": [
