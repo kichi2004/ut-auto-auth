@@ -2,20 +2,31 @@
 <head>
   <title>統一認証自動ログイン拡張 設定画面</title>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./options.css" />
 </head>
 <body>
-<label for="user-id">UTID-13</label><br />
-<input id="user-id" name="userid" /><br />
-<label for="user-name">UTID-NAME</label><br />
-<input id="user-name" name="username" />
-<button type="button" id="auto-id">UTID-13 から自動入力</button><br />
-<label for="password">パスワード</label><br />
-<input id="password" name="password" type="password" /><br />
+<h1>設定</h1>
+<div class="form-group">
+  <label for="user-id">UTID-13</label>
+  <input id="user-id" name="userid" placeholder="0012026099999" />
+</div>
+<div class="form-group">
+  <label for="user-name">UTID-NAME</label>
+  <input id="user-name" name="username" placeholder="s2609999" />
+  <button type="button" id="auto-id">UTID-13 から自動入力</button>
+</div>
+<div class="form-group">
+  <label for="password">パスワード</label>
+  <input id="password" name="password" type="password" />
+</div>
 <button type="button" id="save">保存</button>
-<p style="color: red">
-  入力したパスワードは，拡張機能の開発者には送信されません．<br />
-  Google アカウントでログインしている場合は，そのアカウントに紐付けられます．
-</p>
-<script src="options.js"></script>
+<div class="notice">
+  <p>
+    入力したパスワードは，拡張機能の開発者には送信されません．<br />
+    Google アカウントでログインしている場合は，そのアカウントに紐付けられる場合があります．
+  </p>
+</div>
+<script src="./options.js"></script>
 </body>
 </html>
